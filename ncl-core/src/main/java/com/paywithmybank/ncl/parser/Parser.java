@@ -130,7 +130,7 @@ public class Parser extends BaseParser{
 		}
 		space();
 		if(!_block_or_vector(rule)){
-			error("Mising block or vector");
+			error("Missing block or vector");
 			return false;
 		}
 		
